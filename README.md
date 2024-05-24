@@ -7,7 +7,7 @@ Files associated with this project:
   project1_food_survey.html 
   project1_Instructions.md
 
-Screen shot of project1----------------------------
+Screen shot of project1------------------------------------------------------------------------------
 
 ![](images/project1_webpage_screenshot.png)
 
