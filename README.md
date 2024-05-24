@@ -11,3 +11,7 @@ This repository contains all the front-end code files.
 ## Projects done for free-code-camp 
 
 project1_food_survey.html project1_Instructions.md
+
+Screen shot of project1----------------------------
+
+![](images/project1_webpage_screenshot.png)
