@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Prefreance survey</title>
+    <link rel="stylesheet" href="css_scripts\project1-survey-form.css">
+</head>
+
+
+<body>
+    <h1 id="title">Food Prefreance survey</h1>
+    <p id="description">We'd love to know more about your food preferences.<br>Please fill out the survey below:</p>
+
+
+    <div class="container">
+    
+    <form id="survey-form" method="post" action="https://register-demo.freecodecamp.org">
+        <div class="top-box">
+        <img class="vertical-pic" src="images\person.png" alt="Vertical Image">
+
+            <div class="user-info">
+                <label id="name-label" for="name"></label>
+                <input id="name" type="text" placeholder="Your name" required>
+
+                <label id="email-label" for="email"></label>
+                <input id="email" type="email" placeholder="email@" required>
+
+                <label id="number-label" for="number"></label>
+                <input id="number" type="number" placeholder="age" max="12" min="20" required>
+            </div>
+        </div>
+
+       
+            <label for="dropdown">What's your favorite type of cuisine?</label>
+            <select id="dropdown" name="cuisine">
+                <option value="italian">Italian</option>
+                <option value="chinese">Chinese</option>
+                <option value="mexican">Mexican</option>
+                <option value="indian">Indian</option>
+                <option value="american">American</option>
+            </select>
+       
+
+        
+            <legend>How often do you eat out?</legend>
+            <label><input type="radio" name="eatout" value="daily" checked> Daily</label>
+            <label><input type="radio" name="eatout" value="weekly"> Weekly</label>
+            <label><input type="radio" name="eatout" value="monthly"> Monthly</label>
+            <label><input type="radio" name="eatout" value="rarely"> Rarely</label>
+        
+
+        
+            <legend>What types of food do you like? (Select all that apply)</legend>
+            <label><input  type="checkbox" name="food-type" value="vegetarian"><img class="icons" src="images\spinach.jpg" alt="spinach" > Vegetarian</label>
+            <label><input type="checkbox" name="food-type" value="seafood"><img class="icons" src="images\fish.jpg" alt="fish" > Seafood</label>
+            <label><input type="checkbox" name="food-type" value="meat"><img class="icons" src="images\meat.jpg" alt="meat" > Meat</label>
+            <label><input type="checkbox" name="food-type" value="desserts"><img class="icons" src="images\cake.png" alt="Desserts" > Desserts</label>
+        
+
+        <label for="comments">Describe your favorite dish:</label>
+        <textarea id="comments" name="comments" placeholder="Write"></textarea>
+
+        <input id="submit" type="submit" value="submit">
+
+    </form>
+    </div>
+</body>
+</html>
