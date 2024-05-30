@@ -2,14 +2,32 @@
 This repository contains all the front-end code files.
 
 ## Projects done for free-code-camp 
-This is the project for front-end development.
-Files associated with this project:
-  project1_food_survey.html 
-  project1_Instructions.md
+This is the project for front-end development.<br>
+Files associated with this project1:<br>
+Involved making a survey fourm that can accept particular set of answers that meet the requirments.
+- [project1_food_survey.html ](project1_food_survey.html)
+- [project1-survey-form.css](css_scripts/project1-survey-form.css)
 
-Screen shot of project1------------------------------------------------------------------------------------------------------------------------
+Files associated with this project2:<br>
+Involved making a reponsive webpage on the topic of "Tribute to Mother Teresa"
+- [project2_tributepage1.html](project2_tributepage1.html)
+- [project2_tributepage1](css_scripts/project2_tributepage1.css)
+---
 
-![](images/project1_webpage_screenshot.png)
+- [project2_tributepage2.html](project2_tributepage2.html)
+- [project2_tributepage2.css](css_scripts/project2_tributepage2.css)
+
+
+### Screen shot of project1
+
+![project1_food_surveyform](images/project1_webpage_screenshot.png)
+
+
+### Screen shot of project2
+![project2_tribute1](images/project2_tribute1_screenshot.png)
+
+![project2_tribute2](images/project2_tribute2_screenshot.png)
+
 
 
 ## Experimentations
