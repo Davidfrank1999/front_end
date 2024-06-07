@@ -17,6 +17,11 @@ Involved making a reponsive webpage on the topic of "Tribute to Mother Teresa"
 - [project2_tributepage2.html](project2_tributepage2.html)
 - [project2_tributepage2.css](css_scripts/project2_tributepage2.css)
 
+Files associated with this project3:<br>
+Involved making a reponsive webpage for CSS documentation page with 'fixed' navbar.
+-[project3_documentation_page.html](project3_doc_page.html)
+[project3_documentation_page.css](css_scripts/project3_doc_page.css)
+-
 
 ### Screen shot of project1
 
@@ -28,7 +33,8 @@ Involved making a reponsive webpage on the topic of "Tribute to Mother Teresa"
 
 ![project2_tribute2](images/project2_tribute2_screenshot.png)
 
-
+### Screen shot of project3
+![project3_doc_screenshot](images/project3_doc.png)
 
 ## Experimentations
 1. learn_html_cat-photo-app.html 

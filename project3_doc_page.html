@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css_scripts\project3_doc_page.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="nav-top"><img id="css-icon" src="https://cdn0.iconfinder.com/data/icons/coding-files-icons-rounded/110/Css-1024.png">
+        <h1>CSS Documentation</h1></div>
+
+
+
+    <nav id="navbar">
+        <header>CSS Basics</header>
+        <a href="#CSS_Introduction" class="nav-link" >CSS Introduction</a>
+           <a href="#CSS_Syntax" class="nav-link" >CSS Syntax</a>
+            <a href="#CSS_Selectors" class="nav-link" >CSS Selectors</a>
+            <a href="#CSS_Units" class="nav-link" >CSS Units</a>
+            
+      
+        <p>Responsive Web Design</p>
+        <a href="#Responsive_Web_Design_-_Introduction" class="nav-link">Introduction</a>
+        <a href="#Responsive_Web-Design_-_Media Queries" class="nav-link">Media Queries</a>
+        
+    </nav>
+
+
+    
+    
+
+
+    <main id="main-doc" class="box">
+        
+        <section id="CSS_Introduction" class="main-section 1">
+            
+            <div class="box1"><header>CSS Introduction</header></div>
+        
+                <article id="info">
+                    <img src="images\css_comp_gif.webp">
+                    <p>CSS is the language we use to style a Web page.</p>
+                    <h1>What is CSS?</h1>
+                        <li>CSS stands for Cascading Style Sheets</li>
+                        <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+                        <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+                        <li>External stylesheets are stored in CSS files</li>
+                    <h2>Why Use CSS?</h2>
+                    <p>CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.</p>
+                    
+            
+
+                <div class="clear">
+                    
+                        <h3>CSS Example</h3>
+                                  
+<code>
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+                        
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+</code>
+
+                            <h4>Output</h4>
+                            <img id="example_img" src="images\css_ex1.png">
+                </div>
+                
+
+
+                    <h2>CSS Solved a Big Problem</h2>
+                    <p>HTML was NEVER intended to contain tags for formatting a web page!
+
+                        <br>HTML was created to describe the content of a web page, like:</p>
+
+                        <p>&lt;h1&gtThis is a heading&lt;/h1&gt</p>
+                        <P whitespace="pre" ></P>
+                        <p>&lt;p&gt;This is a paragraph.&lt;/p&gt;  </p>
+
+                    <p>When tags like &lt;font&gt;&lt;/font&gt;, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and expensive process.
+
+                        <br>To solve this problem, the World Wide Web Consortium (W3C) created CSS.
+                        
+                        <br>CSS removed the style formatting from the HTML page!  </p>
+                    <h3>CSS Saves a Lot of Work!</h3>
+                    <p>The style definitions are normally saved in external .css files.
+
+                        <br>With an external stylesheet file, you can change the look of an entire website by changing just one file!
+                    </p>
+           
+
+
+                </article>
+            
+        </section>
+
+        <section id="CSS_Syntax" class="main-section 2">
+            <div class="box1"><header>CSS Syntax</header></div>
+            <article id="info">
+                <img src="https://www.w3schools.com/css/img_selector.gif">
+                <p>
+                    The selector points to the HTML element you want to style.
+
+<br>The declaration block contains one or more declarations separated by semicolons.
+
+<br>Each declaration includes a CSS property name and a value, separated by a colon.
+
+<br>Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.
+                </p>
+
+                <h3>Example</h3>In this example all &lt;p&gt; elements will be center-aligned, with a red text color:
+<code>
+    p {
+        color: red;
+        text-align: center;
+      }
+</code>
+                <img id="example_img" src="images\css_syntex_ex.png" atl="exampleimg">
+                <p>
+                    Example Explained
+                        <li>p is a selector in CSS (it points to the HTML element you want to style: &ltp&gt;).</li>
+                        <li>color is a property, and red is the property value</li>
+                        <li>text-align is a property, and center is the property value</li>
+
+                </p>
+
+        </section>
+
+        <section id="CSS_Selectors" class="main-section 3">
+            <div class="box1"><header>CSS Selectors</header></div>
+            <article id="info">
+                <p>A CSS selector selects the HTML element(s) you want to style.
+                </p>
+                <h2>CSS Selectors</h2>
+                <p>CSS selectors are used to "find" (or select) the HTML elements you want to style.
+
+                    <br>We can divide CSS selectors into five categories:</p>
+                    <li>Simple selectors (select elements based on name, id, class)</li>
+                    <li>Combinator selectors (select elements based on a specific relationship between them)</li>
+                    <li>Pseudo-class selectors (select elements based on a certain state)</li>
+                    <li>Pseudo-elements selectors (select and style a part of an element)</li>
+                    <li>Attribute selectors (select elements based on an attribute or attribute value)</li>
+                    <P whitespace="pre" ></P>
+                <table>
+                    <tr>
+                        <th>Selector</th>
+                        <th>Example</th>
+                        <th>Example descrption</th>
+                    </tr>
+                    <tr>
+                        <td>#id</td>
+                        <td>#firstname</td>
+                        <td>Selects the element with id="firstname"</td>
+                    </tr>
+                    <tr>
+                        <td>.class</td>
+                        <td>.intro</td>
+                        <td>Selects all elements with class="intro"</td>
+                    </tr>
+                    <tr>
+                        <td>element.class</td>
+                        <td>p.intro</td>
+                        <td>Selects only &ltp&gt elements with class="in</td>
+                    </tr>
+                    <tr>
+                        <td>*</td>
+                        <td>*</td>
+                        <td>Selects all elements</td>
+                    </tr>
+                    <tr>
+                        <td>element</td>
+                        <td>p</td>
+                        <td>Selects all &ltp&gt elem</td>
+                    </tr>
+                    <tr>
+                        <td>element,element,..</td>
+                        <td>div,p</td>
+                        <td>Selects all &ltdiv&gt elements and all &ltp&gt </td>
+                    </tr>
+
+                </table>
+
+            
+
+           
+            
+        </section>
+
+        <section id="CSS_Units" class="main-section 4">
+            <div class="box1"><header>CSS Units</header></div>
+            <article id="info">
+                <P>CSS has several different units for expressing a length.
+                <br>Many CSS properties take "length" values, such as width, margin, padding, font-size, etc.  
+                <br>Length is a number followed by a length unit, such as 10px, 2em, etc.
+                </P>
+                <p>Example
+    
+                <br>Set different length values, using px (pixels):</p>
+    <code>
+    h1 {
+        font-size: 60px;
+    }
+          
+    p {
+    font-size: 25px;
+    line-height: 50px;
+    }
+    </code>
+                <img id="example_img" src="images\CSS Units.png" atl="font size examples">
+                <div class="clear">
+                    <p>Note: A whitespace cannot appear between the number and the unit. However, if the value is 0, the unit can be omitted.
+                    <br>For some CSS properties, negative lengths are allowed.
+                    
+                    <br>There are two types of length units: absolute and relative.</p>
+                    <h3>Absolute Lengths</h3>
+                    <p>The absolute length units are fixed and a length expressed in any of these will appear as exactly that size.
+                    <br>Absolute length units are not recommended for use on screen, because screen sizes vary so much. However, they can be used if the output medium is known, such as for print layout.</p>
+                    <table>
+                        <tr>
+                            <th>Unit</th>
+                            <th>Description</th>
+                        </tr>
+                        <tr>
+                            <td>cm</td>
+                            <td>centimeters</td>
+                        </tr>
+                        <tr>
+                            <td>mm</td>
+                            <td> 	millimeters </td>
+                        </tr>
+                        <tr>
+                            <td>in</td>
+                            <td> 	inches (1in = 96px = 2.54cm) </td>
+                        </tr>
+                        <tr>
+                            <td>px*</td>
+                            <td>pixels (1px = 1/96th of 1in) </td>
+                        </tr>
+                        <tr>
+                            <td>pt</td>
+                            <td> 	points (1pt = 1/72 of 1in) </td>
+                        </tr>
+                        <tr>
+                            <td>pc</td>
+                            <td> 	picas (1pc = 12 pt) </td>
+                        </tr>
+                    </table>
+                        <p>* Pixels (px) are relative to the viewing device. For low-dpi devices, 1px is one device pixel (dot) of the display. For printers and high resolution screens 1px implies multiple device pixels.</p>
+                        
+                        <h3>Relative Lengths</h3>
+                        <p>Relative length units specify a length relative to another length property. Relative length units scale better between different rendering medium.</p>
+                        <table>
+                            <tr>
+                                <th>Unit</th>
+                                <th>Description</th>
+                            </tr>
+                            <tr>
+                                <td>em</td>
+                                <td> 	Relative to the font-size of the element (2em means 2 times the size of the current font)</td>
+                            </tr>
+                            <tr>
+                                <td>ex</td>
+                                <td> 	Relative to the x-height of the current font (rarely used)</td>
+                            </tr>
+                            <tr>
+                                <td>ch</td>
+                                <td>Relative to the width of the "0" (zero)</td>
+                            </tr>
+                            <tr>
+                                <td>rem</td>
+                                <td> 	Relative to font-size of the root element</td>
+                            </tr>
+                            <tr>
+                                <td>vw</td>
+                                <td>Relative to 1% of the width of the viewport*</td>
+                            </tr>
+                            <tr>
+                                <td>vh</td>
+                                <td> 	Relative to 1% of the height of the viewport*</td>
+                            </tr>
+                            <tr>
+                                <td>vmin</td>
+                                <td>Relative to 1% of viewport's* smaller dimension</td>
+                            </tr>
+                            <tr>
+                                <td>vmax</td>
+                                <td>Relative to 1% of viewport's* larger dimension</td>
+                            </tr>
+                            <tr>
+                                <td>%</td>
+                                <td>Relative to the parent element</td>
+                            </tr>
+                        </table>
+                    
+                </div>
+            </article>
+        </section>
+
+        <section id="Responsive_Web_Design_-_Introduction" class="main-section 5">
+            <div class="box1"><header>Responsive Web Design - Introduction</header></div>
+            <article id="info">
+                <h2>What is Responsive Web Design?</h2>
+                <p>Responsive web design makes your web page look good on all devices.
+
+                <br>Responsive web design uses only HTML and CSS.
+                    
+                <br>Responsive web design is not a program or a JavaScript.</p>
+                
+                <h2>Designing For The Best Experience For All Users</h2>
+                <p>Web pages can be viewed using many different devices: desktops, tablets, and phones. Your web page should look good, and be easy to use, regardless of the device.
+
+                <br>Web pages should not leave out information to fit smaller devices, but rather adapt its content to fit any device:</p>
+                    <div id="img_group">
+                        <img src="https://www.w3schools.com/css/rwd_desktop.png">
+                        <img src="https://www.w3schools.com/css/rwd_tablet.png">
+                        <img src="https://www.w3schools.com/css/rwd_phone.png">
+                    </div>
+                <p class="clear">It is called responsive web design when you use CSS and HTML to resize, hide, shrink, enlarge, or move the content to make it look good on any screen</p>
+
+
+        </section>
+
+        <section id="Responsive_Web_Design_-_Media_Queries" class="main-section 6">
+            <div class="box1"><header>Responsive Web Design - Media Queries</header></div>
+            <article id="info">
+                <h2>What is a Media Query?</h2>
+                <p>Media query is a CSS technique introduced in CSS3.
+
+                <br>It uses the @media rule to include a block of CSS properties only if a certain condition is true.</p>
+                <h4>Example</h4>
+                <p>If the browser window is 600px or smaller, the background color will be lightblue:</p>
+<code>
+@media only screen and (max-width: 600px) {
+body {
+    background-color: lightblue;
+}
+}
+</code>
+                <h3>Add a Breakpoint</h3>
+                <p>We can add a breakpoint where certain parts of the design will behave differently on each side of the breakpoint.</p>
+                <div id="img_group">
+                    <img src="https://www.w3schools.com/css/rwd_desktop.png">
+                    <img src="https://www.w3schools.com/css/rwd_phone.png">
+                </div>
+                <p class="clear">Example
+                <br>When the screen (browser window) gets smaller than 768px, each column should have a width of 100%:</p>
+<code>
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+    }
+</code>
+        </section>
+
+    </section>
+
+   
+    </main>
+    
+
+
+    
+</body>
+</html>
